@@ -1,16 +1,16 @@
 import React from 'react'
-import Header from '../../core/Header/Header'
-import Footer from '../../core/Footer/Footer'
 import { Outlet } from 'react-router-dom'
+import HeaderComponent from '../../Shared/Components/HeaderComponents/HeaderComponent'
+import FooterComponent from '../../Shared/Components/FooterComponents/FooterComponent'
 
 export default function Main() {
   return (
     <div>
-        <Header />
+        <HeaderComponent />
         <main>
             <Outlet />
         </main>
-        <Footer />
+        <FooterComponent />
     </div>
   )
 }

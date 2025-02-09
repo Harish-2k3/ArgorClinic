@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function OurMedicalTeamComponent() {
   const team = [
-    { image: 'public/doctor.png', name: 'Dr. John Doe', role: 'Doctor', social: { facebook: '#', twitter: '#', instagram: '#' } },
-    { image: 'public/labtech.png', name: 'Dr. Jane Smith', role: 'Lab Technician', social: { facebook: '#', twitter: '#', instagram: '#' } },
-    { image: 'public/xraytech-removebg-preview.png', name: 'Dr. Emily Johnson', role: 'Xray Technician', social: { facebook: '#', twitter: '#', instagram: '#' } },
-    { image: 'public/receptionist.png', name: 'Dr. Michael Brown', role: 'Receptionist', social: { facebook: '#', twitter: '#', instagram: '#' } },
+    { image: 'doctor.png', name: 'Dr. John Doe', role: 'Doctor', social: { facebook: '#', twitter: '#', instagram: '#' } },
+    { image: 'labtech.png', name: 'Dr. Jane Smith', role: 'Lab Technician', social: { facebook: '#', twitter: '#', instagram: '#' } },
+    { image: 'xraytech-removebg-preview.png', name: 'Dr. Emily Johnson', role: 'Xray Technician', social: { facebook: '#', twitter: '#', instagram: '#' } },
+    { image: 'receptionist.png', name: 'Dr. Michael Brown', role: 'Receptionist', social: { facebook: '#', twitter: '#', instagram: '#' } },
   ];
 
   return (

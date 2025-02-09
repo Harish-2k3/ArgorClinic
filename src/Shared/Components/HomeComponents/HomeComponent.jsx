@@ -31,7 +31,7 @@ export default function HomeComponents() {
 
       {/* Stats Section (Stays at Bottom) */}
       <div className=" py-10 md:py-0 md:absolute bottom-0 w-full sm:z-[10]">
-        <h1 className="text-2xl md:hidden text-center py-10 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+        <h1 className="md:hidden text-center py-10 bg-gradient-to-r text-white text-3xl">
           Our Achievements
         </h1>
         <StatsComponent />

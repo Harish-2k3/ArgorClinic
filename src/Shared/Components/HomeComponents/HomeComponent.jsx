@@ -7,7 +7,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import StatsComponent from '../StatsComponents/StatsComponent';
 export default function HomeComponents() {
   return (
-    <div className="bg-gray-900 relative">
+    <div className="bg-gray-900 relative mt-15">
       {/* Slideshow Section (Moves Up by -10) */}
       <div className="h-[40vh] md:h-[70vh] flex items-center justify-center relative -mb-10">
         <Swiper
@@ -30,10 +30,7 @@ export default function HomeComponents() {
       </div>
 
       {/* Stats Section (Stays at Bottom) */}
-      <div className=" py-10 md:py-0 md:absolute bottom-0 w-full sm:z-[10]">
-        <h1 className="md:hidden text-center py-10 bg-gradient-to-r text-white text-3xl">
-          Our Achievements
-        </h1>
+      <div className=" py-10 md:py-0 absolute bottom-0 w-full sm:z-[10]">
         <StatsComponent />
       </div>
     </div>

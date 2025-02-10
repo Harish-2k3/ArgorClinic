@@ -9,11 +9,9 @@ export default function AboutUs() {
         <div className="flex flex-col py-5 justify-center text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Us</h2>
           <p className="text-gray-600 text-lg mb-4 text-justify">
-            We are a passionate team dedicated to providing the best solutions for our clients. Our mission is to innovate and create products that make a difference.
-          </p>
+          Argor Clinic is committed to providing reliable healthcare services, including X-Ray, ECG, Lab tests, Pharmacy, and Medical Consultation. We ensure accurate diagnosis and effective treatment with modern facilities.          </p>
           <p className="text-gray-600 text-lg text-justify">
-            With years of experience in the industry, we have built a reputation for quality and excellence. Our team is committed to continuous learning and improvement.
-          </p>
+          Our experienced medical team prioritizes patient care, offering expert guidance and personalized treatment. We strive to make quality healthcare accessible and convenient for everyone.          </p>
         </div>
 
         {/* Right Side: Overlapping Images */}
